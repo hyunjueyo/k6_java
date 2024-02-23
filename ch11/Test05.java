@@ -27,3 +27,4 @@ public class Test05 {
 		test.charge(-10);
 	}
 }
+1
