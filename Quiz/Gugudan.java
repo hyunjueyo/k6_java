@@ -1,15 +1,13 @@
 package Quiz;
 
 public class Gugudan {
-	
+
 	public void print(int i) {
 		System.out.println(i + "단");
-		// i단 구구단 출력시작 
 		// 2*1=2 ...2*9=18
-	
-
-
-		//i단 구구단 출력 끝	
+		for (int j = 1; j < 10; j++) {
+			int result = i * j;
+			System.out.println(i + "*" + j + "=" + result);
+		}
 	}
-
 }
